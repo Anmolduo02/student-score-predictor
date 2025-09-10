@@ -4,12 +4,16 @@ Predicting student exam scores using study hours and attendance with machine lea
 ## Table of Contents
 
 (a) Project Overview
+
 (b) Features & Visuals
+
 (c) Dataset
+
 (d) Project Structure
+
 (e) Requirements
+
 (f) How to Run
-(g) Results & Screenshots
 
 
 ### (A) Project Overview
@@ -18,68 +22,94 @@ Predicting student exam scores using study hours and attendance with machine lea
 
 ### (B) Features & Visuals
 -> Data cleaning and preprocessing with Pandas and NumPy
+
 -> EDA with correlation matrices, scatter plots, and box plots
+
 -> Model building using linear regression (scikit-learn)
+
 -> Performance evaluation using R² Score and Mean Absolute Error
+
 -> Visualizations for actual vs predicted scores
+
 -> Prediction function for new input data
 
 
-Dataset
-Downloaded from Kaggle: Student Performance Prediction Dataset
-Key features:
-Hours_Studied
-Attendance
-Final_Score
+### (c) Dataset
+-> Downloaded from Kaggle: Student Performance Prediction Dataset
 
-Project Structure
-text
-.
-├── data/
-│   └── Student_Performance.csv
-├── notebooks/
-│   └── analysis.ipynb
-├── src/
-│   ├── data_processing.py
-│   ├── model.py
-│   └── predict.py
-├── results/
-│   ├── eda_plots.png
-│   └── predictions_sample.csv
-├── requirements.txt
-└── README.md
+### (d) Key features:
+-> Hours_Studied
+
+-> Attendance
+
+-> Final_Score
+
+### (e) Project Structure
+ 
+ ├── data/ 
+ 
+ │   └── Student_Performance.csv
+ 
+ ├── notebooks/
+ 
+ │   └── analysis.ipynb 
+ 
+ ├── src/
+ 
+ │   ├── data_processing.py
+ 
+ │   ├── model.py
+ 
+ │   └── predict.py
+ 
+ ├── results/
+ 
+ │   ├── eda_plots.png
+ 
+ │   └── predictions_sample.csv
+ 
+ ├── requirements.txt
+ 
+ └── README.md
 
 
-Requirements
-Install the required libraries:
-bash
-pip install pandas numpy matplotlib seaborn scikit-learn joblib
 
-If fetching data from Kaggle, also:
-bash
-pip install kaggle
+### (f) Requirements
+-> Install the required libraries:
+
+    bash
+    
+    pip install pandas numpy matplotlib seaborn scikit-learn joblib
+
+   or 
+   
+   If fetching data from Kaggle, also:
+   
+    bash
+    
+    pip install kaggle
 
 
-How to Run
-Clone this repository:
-git clone https://github.com/your-username/student-score-prediction.git
-Download the dataset from Kaggle or use the provided CSV in data/.
-Install dependencies:
-pip install -r requirements.txt
-Run the analysis notebook or Python scripts:
-Open notebooks/analysis.ipynb for a step-by-step walkthrough.
-Or run individual scripts for data processing, training, and prediction.
-Predict a score:
-Use the function in src/predict.py to enter new values for study hours and attendance.
+### (g) How to Run
+-> Clone this repository:
 
-Results & Screenshots
-Model Accuracy:
-Example: R² Score = 0.87, MAE = 5.4
-Visuals:
-Actual vs Predicted plot
-Correlation heatmaps
-EDA plots
-Sample screenshots and visuals are provided in the results/ folder and embedded in the demo notebook.
+    git clone https://github.com/your-username/student-score-prediction.git
+    
+  Download the dataset from Kaggle or use the provided CSV in data/.
+  
+   Installing dependencies:
+   
+     pip install -r requirements.txt
+     
+   Running the analysis notebook or Python scripts:
+   
+
+### (h) Predicting a score:
+
+-> Use the function in src/predict.py to enter new values for study hours and attendance.
+
+
+
 
 
 
